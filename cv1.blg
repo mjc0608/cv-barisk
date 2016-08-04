@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cv1.aux
+The style file: geo.bst
+Database file #1: header-standard.bib
+Database file #2: biblio-confs-journals.bib
+You've used 10 entries,
+            2548 wiz_defined-function locations,
+            896 strings with 13342 characters,
+and the built_in function-call counts, 5030 in all, are:
+= -- 568
+> -- 220
+< -- 0
++ -- 157
+- -- 287
+* -- 312
+:= -- 899
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 48
+chr.to.int$ -- 40
+cite$ -- 20
+duplicate$ -- 271
+empty$ -- 283
+format.name$ -- 76
+if$ -- 985
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 108
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 118
+stack$ -- 0
+substring$ -- 222
+swap$ -- 21
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 70
+width$ -- 12
+write$ -- 111

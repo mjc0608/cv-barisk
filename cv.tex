@@ -1,0 +1,359 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{bibtopic}
+
+\oddsidemargin -0in
+\evensidemargin -0in
+\textwidth=165mm
+\textheight=228mm
+\parindent 0pt
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\newcommand{\mysec}[1]{\vspace{2em}\textsc{\large #1}\vspace{1mm}\hrule\vspace{2mm}}
+\newcommand{\mysub}[3]{\textbf{#1} {#2} \hfill {\em #3}}
+\newcommand{\myssub}[1]{\hspace*{2mm}\parbox{163mm}{#1}\vspace*{2mm}}
+
+\begin{document}
+
+\begin{center}
+{\Large \textbf{\textsc{Baris Kasikci}}} \vspace{1mm} \\
+{\em Scientific Collaborator \& Postdoctoral Researcher} \\
+Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL)
+\end{center}
+
+\vspace{1em}
+
+\hspace{0.8in}
+\begin{tabular}{@{}p{2.5in}p{4in}}
+EPFL - IC - DSLAB                  & +41 (78) 707 19 13 \\
+Station 14, Office INN-321  & baris.kasikci@epfl.ch \\
+1015 Lausanne, Switzerland  & http://www.bariskasikci.org \\
+\end{tabular}
+
+\vspace{1em}
+
+\mysec{Research Interests}
+
+My research is centered around developing techniques, tools and environments that help build more reliable and secure software. I am interested in finding solutions that allow programmers to better reason about their code, and that efficiently detect bugs, classify them, and diagnose their root cause. I especially focus on bugs that manifest in production, because they are hard and time consuming. I am also interested in efficient runtime instrumentation, hardware and runtime support for enhancing system security, and program analysis under various memory models.
+
+\mysec{Education}
+
+\mysub{Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL)}{}{Lausanne, Switzerland} \vspace*{1mm} \\
+\myssub{\vspace{2mm}\textit{Ph.D. in Computer Science}\hfill Sep. 2010--Dec. 2015 \\
+Thesis: Techniques for Detection, Root Cause Diagnosis, \\ \phantom{xxxxxx} and Classification of In-Production Concurrency Bugs \\
+Advisor: Prof. George Candea} \vspace{1mm}
+
+\mysub{Middle East Technical University (METU)}{}{Ankara, Turkey} \vspace*{1mm} \\
+\myssub{\vspace{2mm}\textit{M.Sc. in Electrical and Electronics Engineering} \hfill Sep. 2006--Jun. 2009 \\
+Thesis:  Variability Modeling in Software Product Lines \\
+{\textit{Graduated with the top grade}} \\
+Advisor: Prof. Semih Bilgen} \vspace*{1mm}
+
+\myssub{\textit{B.Sc. in Electrical and Electronics Engineering} \hfill Sep. 2002--Jun. 2006 \\
+Project: Embedded Target Estimation, Detection, and Tracking\\
+{\textit{Graduated with High Honors}} \\
+Advisor: Prof. Arzu Koc}
+
+\mysec{Awards and Honors}
+
+\myssub{EuroSys Roger Needham Award for Best PhD. Thesis in Computer Systems in Europe \hfill 2016} \\
+\myssub{Intel Corp. Software and Services Group, Grant \hfill 2014--2016} \\
+\myssub{VMware Inc., Doctoral Fellowship \hfill 2014--2015} \\
+\myssub{EPFL, Doctoral Fellowship \hfill 2010--2011} \\
+\myssub{Scientific and Technological Research Council of Turkey, Master Scholarship \hfill 2006--2008} \\
+\myssub{Middle East Technical University, Dean's High Honor List \hfill 2006} \\
+\myssub{Middle East Technical University, \\ Award for Best Team Performance, Undergraduate Final Project  \hfill 2006} \\
+\myssub{Turkish Customs Association, Scholarship \hfill 2002--2006} \\
+
+\newpage
+
+\mysec{Research and Work Experience}
+
+\mysub{Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL)}{}{Lausanne, Switzerland} \\
+\myssub{\vspace{1mm}Postdoctoral Researcher \hfill Dec. 2015--present \\
+Research on software security
+}
+
+\myssub{\vspace{1mm}Research Assistant \hfill Sep. 2010--Dec. 2015 \\
+Research on software reliability with an emphasis on concurrent software
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I developed \textbf{Gist}, the first technique for accurately, efficiently, and automatically diagnosing the root causes of in-production failures, by using a combination of static and dynamic program analysis.}
+\item{I developed \textbf{RaceMob}, the first automated in-production data race detection technique that can be kept always-on and provides high accuracy, by combining static data race detection with adaptive, crowdsourced dynamic data race detection.}
+\item{I developed \textbf{Portend}, a high-accuracy technique to classify data races according to their potential consequences under arbitrary memory models, by using symbolic program analysis to explore multiple program paths and schedules to determine the effects of data races.}
+\item{I developed \textbf{Bias-Free Sampling}, a technique that allows efficient sampling of rarely executed code (where bugs often lurk) without over-sampling frequently executed code, by using a new sampling algorithm and existing hardware support.}\\
+\end{itemize}
+\vspace{-5mm}
+}
+
+\mysub{Intel Corp.}{}{Santa Clara, CA, USA} \\
+\myssub{\vspace{1mm}Research Intern \hfill Jul. 2015--Sep. 2015\\
+Automated root cause diagnosis of failures and security enhancements using hardware support
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I developed a tool that allows developers to determine which program statements operate on a given data type at runtime using a mix of static program analysis and hardware support. In our experiments, this tool reduces the number of statements to examine during debugging by an order of magnitude. This tool is being extended internally at Intel.}
+\item{I began investigating hardware support for enhancing system security, in particular, efficient path profiling for auditing and detecting control flow hijack attacks.}
+\end{itemize}
+\vspace{-2mm}
+}
+
+\mysub{VMware Inc.}{}{Palo Alto, CA, USA} \\
+\myssub{\vspace{1mm}Research and Development Intern \hfill Jun. 2014--Sep. 2014\\
+Automated debugging and runtime control flow tracking
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I implemented a runtime for efficient control flow tracking in software. This work formed the basis of my \textbf{Gist} work on root cause diagnosis.}
+\item{I designed and implemented an infrastructure to remotely debug and profile VMware VCenter virtual machine management software, while it is running in production. This infrastructure is used by VCenter developers at VMWare.}
+\end{itemize}
+\vspace{-2mm}
+}
+
+\mysub{Microsoft Research}{}{Redmond, WA, USA} \\
+\myssub{\vspace{1mm}Research Intern \hfill Jun. 2013--Sep. 2013\\
+Efficient runtime execution sampling technique and low overhead coverage measurement
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I worked on the design of the \textbf{Bias-Free Sampling} framework for efficient runtime sampling. I designed and implemented the bias-free sampling framework for managed code (i.e., C\#). This tool is internally used at Microsoft.}
+\item{I designed and implemented a fault injection tool to detect resource leakage problems using dynamic binary instrumentation. }
+\end{itemize}
+\vspace{-2mm}
+}
+
+\newpage
+
+\mysub{Siemens Corporate Technology}{}{Istanbul, Turkey} \\
+\myssub{\vspace{1mm}Senior Software Engineer \hfill Mar. 2008--May 2010 \\
+Embedded home and industrial automation software
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I designed and implemented a real-time embedded gateway software between Siemens communication processors and a building automation system using C++ on top of VxWorks.}
+\end{itemize}
+}
+
+
+\mysub{Aselsan Electronic Industries}{}{Ankara, Turkey} \\
+\myssub{\vspace{1mm}Software Engineer \hfill May 2006--Mar. 2008 \\
+Embedded motor control and functional testing infrastructure
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I was responsible for a real-time embedded control software for turret motor control. I also designed and implemented a full-system functional testing software using C++ on top of VxWorks for Power PC architectures.}
+\end{itemize}
+}
+
+\myssub{Student Intern \hfill Jun. 2005--Jul. 2005 \\
+Embedded software development
+\vspace{-1mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{I developed embedded control software for a night vision camera using C++ and PIC assembly on a PIC microcontroller.}
+\end{itemize}
+}
+
+\vspace{-7mm}
+%\begin{spacing}{1.1}
+\bibliographystyle{geo}
+\begin{btSect}{header-standard,biblio-confs-journals}
+\mysec{Peer-reviewed Publications}
+\btPrintAll
+\end{btSect}
+%\end{spacing}
+
+\newpage
+
+\mysec{Talks}
+\mysub{Stamping Out Concurrency Bugs}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Royal Holloway, University of London, Seminar}\hfill Apr. 2016
+\item{Georgia Institute of Technology, Seminar}\hfill Apr. 2016
+\item{Carnegie Mellon University, Seminar}\hfill Apr. 2016
+\item{University of Southern California, Seminar}\hfill Mar. 2016
+\item{University of Rochester, Seminar}\hfill Mar. 2016
+\item{Microsoft Research Redmond, Seminar}\hfill Mar. 2016
+\item{Microsoft Research Cambridge, Seminar}\hfill Mar. 2016
+\item{MPI Software Systems, Seminar}\hfill Mar. 2016
+\item{University College London, Seminar}\hfill Mar. 2016
+\item{Rice University, Seminar}\hfill Feb. 2016
+\item{University of Toronto, Seminar}\hfill Feb. 2016
+\item{University of Michigan, Seminar}\hfill Feb. 2016
+\item{Boston University, Seminar}\hfill Feb. 2016
+\item{Georgia Institute of Technology, Seminar}\hfill Feb. 2016
+\item{VMWare Research, Seminar}\hfill Feb. 2016
+\item{University of British Columbia, Seminar}\hfill Feb. 2016
+\item{Simon Fraser University, Seminar}\hfill Jan. 2016
+\end{itemize}
+\mysub{Automated Root Cause Diagnosis of In-Production Failures}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Symposium on Operating System Principles (SOSP)}\hfill Oct. 2015
+\item{Intel Corp.}\hfill Sep. 2015
+\item{Google}\hfill Sep. 2015
+\item{VMware Inc.}\hfill Sep. 2015
+\end{itemize}
+\vspace{-2mm}
+\mysub{Failure Sketches: A Better Way to Debug}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{EcoCloud Annual Event}\hfill Jun. 2015
+\item{Hot Topics in Operating Systems (HotOS)}\hfill May 2015
+\end{itemize}
+\vspace{-2mm}
+\mysub{Efficient Tracing of Cold Code via Bias-Free Sampling}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{USENIX Annual Technical Conference (USENIX ATC)}\hfill Jun. 2014
+\end{itemize}
+\vspace{-2mm}
+\mysub{Lockout: Efficient Testing for Deadlock Bugs}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Workshop on Determinism and Correctness in Parallel Programming (WoDet)}\hfill Mar. 2014
+\end{itemize}
+\vspace{-2mm}
+\mysub{RaceMob: Crowdsourced Data Race Detection.}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Symposium on Operating System Principles (SOSP)}\hfill Oct. 2013
+\item{EPFL Systems Seminar}\hfill Oct. 2013
+\end{itemize}
+\vspace{-2mm}
+\mysub{CoRD: A Collaborative Framework for Distributed Data Race Detection}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Workshop on Hot Topics in System Dependability (HotDep)} \hfill Oct. 2012
+\end{itemize}
+\vspace{-2mm}
+\mysub{Data Races vs. Data Race Bugs: Telling the Difference with Portend}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{International Conference on Architectural Support for Programming Languages and \\ Operating Systems (ASPLOS)} \hfill Mar. 2012
+\end{itemize}
+\vspace{-2mm}
+\mysub{How to Build Reliable Software?}{}{} 
+\vspace{-2mm}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Seminar talk to the incoming undergraduate students at EPFL} \hfill  Sep. 2011
+\end{itemize}
+
+\mysec{Professional Service}
+
+\mysub{Reviewer}{}{} \\
+\myssub{\vspace{2mm}Transactions on Software Engineering \hfill 2015 \\
+Transactions on Software Engineering and Methodology \hfill 2015} \\
+\mysub{PC Member}{}{}\\
+\myssub{\vspace{2mm}International Symposium on Software Testing and Analysis, Artifact Evaluation Committee \hfill 2014} \\
+\mysub{Shadow PC Member}{}{} \\ 
+\myssub{\vspace{2mm}EuroSys Conference on Computer Systems (EuroSys) \hfill 2013, 2015} \\
+\mysub{External Reviewer}{}{} \\ 
+\myssub{\vspace{2mm}Conference on Innovative Data Systems Research (CIDR)\hfill 2013\\
+Intl. Conf. on Dependable Systems and Networks (DSN) \hfill 2011, 2013 \\
+EuroSys Conference on Computer Systems (EuroSys) \hfill 2011, 2012 \\
+Workshop on Hot Topics in Operating Systems (HotOS) \hfill 2011, 2013 \\
+USENIX Annual Technical Conference (USENIX ATC) \hfill 2011 \\
+Symposium on Cloud Computing (SOCC) \hfill 2012 \\
+Symp. on Operating Systems Principles (SOSP) \hfill 2011. 2013 \\
+Intl. SPIN Workshop on Model Checking of Software (SPIN) \hfill 2011} \\
+
+\mysub{Committee Member}{}{} \\
+\myssub{\vspace{2mm}EPFL Doctoral School of Computer and Communication Sciences Audit Committee \hfill 2015}\\
+
+
+\mysec{Professional Membership}
+
+\myssub{\textbf{ACM}: student member \\
+\textbf{Usenix}: student member \\
+\textbf{EuroSys}: student member
+}
+
+\mysec{Teaching Assistantship}
+
+\mysub{Principles of Computer Systems}{(graduate level, EPFL)}{\rm 2014\vspace{2mm}} \\
+\mysub{Software Engineering}{(3\textsuperscript{rd} year undergraduate level, EPFL)}{\rm 2011, 2012} \\
+\myssub{In 2012, I was the head teaching assistant}\\
+\mysub{Programming II}{(1\textsuperscript{st} year undergraduate level, EPFL)}{\rm 2010}
+
+\newpage
+
+\mysec{Research Mentoring}
+
+\myssub{\vspace{2mm}Lisa Zhou (1\textsuperscript{st} year Master's) \hfill Sep. 2015--present
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Lisa and I are working on using hardware support for improving the security of software systems. In that regard, Lisa and Benjamin (see below) are building a framework for reproducing security bugs in large applications (e.g., Chrome).}
+\end{itemize}
+}
+
+\myssub{Benjamin Schubert (3\textsuperscript{rd} year undergraduate) \hfill Feb. 2015--present
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Benjamin and I have been working on a framework that enables reliably reproducing failures in systems software like Apache and MySQL. We used this framework to evaluate my \textbf{Gist} work on root cause diagnosis. We are now extending this framework to encompass security vulnerabilities.}
+\end{itemize}
+}
+
+\myssub{Ali Kheradmand (3\textsuperscript{rd} year undergraduate) \hfill Jul. 2013--Sep.2013
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Ali and I worked on the \textbf{Lockout} project and developed a technique to systematically perturb program executions (without modifying program semantics) to increase the probability of deadlock manifestation. Ali is currently pursuing his Ph.D. at UIUC.}
+\end{itemize}
+}
+
+\myssub{Radu Coman (Master's thesis) \hfill Jan. 2012--Sep. 2012
+\begin{itemize}
+\setlength\itemsep{0em}
+\item{Radu and I surveyed common concurrency bug patterns in open source software. After we identified data races as a common bug pattern among the 100 bugs we looked at in Google Code, we built a static data race detector, which I used in my \textbf{RaceMob} project. Radu is currently a senior software engineer at Ixia.}
+\end{itemize}
+}
+
+%% \mysec{Skills}
+
+%% \myssub{Sharp learning curve, strong sense of responsibility and teamwork} \\
+%% \myssub{Strong background in computer science and engineering, with an emphasis on operating systems, software engineering and VLSI design}\\
+%% \myssub{Extensive knowledge of concurrency research and concepts} \\
+%% \myssub{Extensive experience in real time embedded systems programming} \\
+%% \myssub{{\em Languages:} C/C++, Java, C\#, Python, bash, HTML, XML, CSS, UML} \\
+%% \myssub{{\em Tools:} Emacs, Rhapsody, Rose, Visual Studio, Netbeans, Eclipse, Tornado, Clearcase, git, subversion, gdb, SourceSafe, CVS, Doors, ClearDDTS, Quality Center, MPLAB}\\
+%% \myssub{{\em Operating Systems:} VxWorks, Linux, Unix, Mac OS X, Windows, uCOS-II} \\
+%% \myssub{{\em Hardware Platforms:}  x86, Motorola 68HC11, Microchip PIC, Power PC 603, FPGAs}
+
+\mysec{Languages}
+
+%% \mysub{Hobbies}{}{}\\
+%% \myssub{Athletics(track and field events), grip training, arm-wrestling, skiing}
+
+\myssub{English: fluent \\
+French: fluent \\
+Turkish: native \\
+German: beginner}
+
+\mysec{References}
+
+\myssub{Available upon request\\}
+
+\end{document}
