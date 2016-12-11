@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{gist}
+Failure Sketching: A Technique for Automated Root Cause Diagnosis of
+  In-Production Failures.
+\newblock Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam,
+  and George Candea.
+\newblock {\em Symp. on Operating Systems Principles (SOSP)}, Monterey, CA,
+  October 2015.
+
+\bibitem{fsworkshop}
+Failure Sketches: A Better Way to Debug.
+\newblock Baris Kasikci, Benjamin Schubert, Cristiano Pereira, Gilles Pokam,
+  Madanlal Musuvathi, and George Candea.
+\newblock {\em \phantom{x}Workshop on Hot Topics in Operating Systems (HotOS)},
+  Kartause Ittingen, Switzerland, May 2015.
+
+\bibitem{kasikci:toplas}
+Automated Classification of Data Races Under Both Strong and Weak Memory
+  Models.
+\newblock Baris Kasikci, Cristian Zamfir, and George Candea.
+\newblock {\em ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  May 2015.
+
+\bibitem{bias-free-sampling}
+Efficient Tracing of Cold Code Via Bias-Free Sampling.
+\newblock Baris Kasikci, Thomas Ball, George Candea, John Erickson, and
+  Madanlal Musuvathi.
+\newblock {\em {USENIX} Annual Technical Conf. (USENIX ATC)}, Philadelphia, PA,
+  June 2014.
+
+\bibitem{lockout}
+Lockout: Efficient Testing for Deadlock Bugs.
+\newblock Ali Kheradmand, Baris Kasikci, and George Candea.
+\newblock {\em 5th Workshop on Determinism and Correctness in Parallel
+  Programming (WoDet)}, Salt Lake City, UT, March 2014.
+
+\bibitem{racemob}
+{RaceMob}: Crowdsourced Data Race Detection.
+\newblock Baris Kasikci, Cristian Zamfir, and George Candea.
+\newblock {\em Symp. on Operating Systems Principles (SOSP)}, Farmington, PA,
+  November 2013.
+
+\bibitem{res}
+Automated Debugging for Arbitrarily Long Executions.
+\newblock Cristian Zamfir, Baris Kasikci, Johannes Kinder, Edouard Bugnion, and
+  George Candea.
+\newblock {\em Workshop on Hot Topics in Operating Systems (HotOS)}, Santa Ana
+  Pueblo, NM, May 2013.
+
+\bibitem{cord}
+CORD: A Collaborative Framework for Distributed Data Race Detection.
+\newblock Baris Kasikci, Cristian Zamfir, and George Candea.
+\newblock {\em {W}orkshop on {H}ot {T}opics in {D}ependable {S}ystems
+  (HotDep)}, Hollywood, CA, October 2012.
+
+\bibitem{portend}
+Data Races vs. Data Race Bugs: Telling the Difference with Portend.
+\newblock Baris Kasikci, Cristian Zamfir, and George Candea.
+\newblock {\em Intl. Conf. on Architectural Support for Programming Languages
+  and Operating Systems (ASPLOS)}, London, UK, March 2012.
+
+\bibitem{variability}
+Scalable Modeling of Software Product Line Variability.
+\newblock Baris Kasikci and Semih Bilgen.
+\newblock {\em Workshop on Scalable Modeling Techniques for Software Product
+  Lines (SCALE)}, San Francisco, CA, August 2009.
+
+\end{thebibliography}
