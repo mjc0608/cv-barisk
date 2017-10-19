@@ -1,47 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: cv1.aux
 The style file: geo.bst
 Database file #1: header-standard.bib
 Database file #2: biblio-confs-journals.bib
-You've used 10 entries,
+You've used 11 entries,
             2548 wiz_defined-function locations,
-            896 strings with 13342 characters,
-and the built_in function-call counts, 5030 in all, are:
-= -- 568
-> -- 220
+            901 strings with 13472 characters,
+and the built_in function-call counts, 5593 in all, are:
+= -- 641
+> -- 243
 < -- 0
-+ -- 157
-- -- 287
-* -- 312
-:= -- 899
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 48
-chr.to.int$ -- 40
-cite$ -- 20
-duplicate$ -- 271
-empty$ -- 283
-format.name$ -- 76
-if$ -- 985
++ -- 176
+- -- 319
+* -- 344
+:= -- 995
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 53
+chr.to.int$ -- 44
+cite$ -- 22
+duplicate$ -- 301
+empty$ -- 311
+format.name$ -- 84
+if$ -- 1100
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 10
-newline$ -- 53
-num.names$ -- 20
-pop$ -- 108
+int.to.str$ -- 22
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 119
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 53
 quote$ -- 0
-skip$ -- 118
+skip$ -- 133
 stack$ -- 0
-substring$ -- 222
-swap$ -- 21
-text.length$ -- 10
+substring$ -- 251
+swap$ -- 23
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 70
-width$ -- 12
-write$ -- 111
+while$ -- 77
+width$ -- 13
+write$ -- 122

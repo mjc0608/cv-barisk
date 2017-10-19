@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{snorlax}
+Lazy Diagnosis of In-Production Concurrency Bugs.
+\newblock Baris Kasikci, Weidong Cui, Xinyang Ge, and Ben Niu.
+\newblock {\em Symp. on Operating Systems Principles (SOSP)}, Shanghai, China,
+  October 2017.
+
 \bibitem{gist}
 Failure Sketching: A Technique for Automated Root Cause Diagnosis of
   In-Production Failures.
